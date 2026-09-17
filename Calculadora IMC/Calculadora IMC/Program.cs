@@ -8,3 +8,5 @@ float.TryParse(Console.ReadLine()!, out float altura);
 imc = (float)(peso / Math.Round(altura, 2));
 imc = peso / (altura * altura);
 Console.WriteLine($"\nO Peso: {peso}\nAltura: {altura}\nIMC: {imc} ");
+
+// incrível
