@@ -5,4 +5,6 @@ Pablo Vinícius Alves Pisolato
 
 * Calculadora IMC
 * Calculadora
+* Área
+  
 
