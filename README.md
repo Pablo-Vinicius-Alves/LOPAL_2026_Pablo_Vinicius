@@ -74,7 +74,9 @@ app.post("/veiculos", (req, res) => {
   return res.status(201).json({ msg: "Entrada registrada", veiculo });
 });
 
-app.get("/veiculos", (req, res) => {});
+app.get("/veiculos", (req, res) => {
+    res.status(200).json({total: VEICULOS.length, VEICULOS});
+});
 app.get("/veiculos/:id", (req, res) => {})
 app.get("/vagas", (req, res) => {})
 
